@@ -241,6 +241,26 @@
   { id: 228, plu: 250183000000, nombre: 'Mini baguett', variedad: 'Ajo', categoria: 'PANADERIA' },
   { id: 229, plu: 253890000000, nombre: 'Mini baguett', variedad: 'Blanco', categoria: 'PANADERIA' },
   { id: 230, plu: 258852000000, nombre: 'Pan', variedad: 'Pirujón GT', categoria: 'PANADERIA' },
+  { id: 231, plu: 257802000000, nombre: 'Baguette a ajo', variedad: 'Und', categoria: 'PANADERIA' },
+  { id: 232, plu: 741340700847, nombre: 'Pan bollo blanco', variedad: 'Und', categoria: 'PANADERIA' },
+  { id: 233, plu: 250427000000, nombre: 'Pastel 1/2 de fruta', variedad: '$29.50', categoria: 'PANADERIA' },
+  { id: 234, plu: 250400000000, nombre: 'Pastel 1/4 fruta', variedad: '$14.60', categoria: 'PANADERIA' },
+  { id: 235, plu: 253861000000, nombre: 'Pastel barra fruta', variedad: '$8.70', categoria: 'PANADERIA' },
+  { id: 236, plu: 253898000000, nombre: 'Pastel frutos rojos', variedad: 'Sarita', categoria: 'PANADERIA' },
+  { id: 237, plu: 250183000000, nombre: 'Baguette integral', variedad: 'Unidad', categoria: 'PANADERIA' },
+  { id: 238, plu: 254027000000, nombre: 'Pastel galleta', variedad: 'Sarita', categoria: 'PANADERIA' },
+  { id: 239, plu: 250183000000, nombre: 'Media baguette', variedad: 'Ajo', categoria: 'PANADERIA' },
+  { id: 240, plu: 253890000000, nombre: 'Media baguette', variedad: 'Blanco', categoria: 'PANADERIA' },
+  { id: 241, plu: 740109080053, nombre: 'Pastel napolitano', variedad: 'Sarita', categoria: 'PANADERIA' },
+  { id: 242, plu: 250297000000, nombre: 'Media baguette', variedad: 'Integral', categoria: 'PANADERIA' },
+  { id: 243, plu: 250289000000, nombre: 'Postre 3 leches', variedad: 'Caramelo', categoria: 'PANADERIA' },
+  { id: 244, plu: 250280000000, nombre: 'Postre 3 leches', variedad: 'Chocolate', categoria: 'PANADERIA' },
+  { id: 245, plu: 250292000000, nombre: 'Postre 3 leches', variedad: 'Domo', categoria: 'PANADERIA' },
+  { id: 246, plu: 741340200219, nombre: 'Brazo gitano', variedad: 'Unidad', categoria: 'PANADERIA' },
+  { id: 247, plu: 729, nombre: 'Postre 3 leches', variedad: 'Tradicional', categoria: 'PANADERIA' },
+  { id: 248, plu: 250141000000, nombre: 'Two pack baguette', variedad: 'Unidad', categoria: 'PANADERIA' },
+  { id: 249, plu: 250352000000, nombre: 'Postre tres leches', variedad: 'Domo', categoria: 'PANADERIA' },
+  { id: 250, plu: 250343000000, nombre: 'Postre tres leches', variedad: 'Tradicional', categoria: 'PANADERIA' }
   ];
 
   /* ---------------------------------------------------------
