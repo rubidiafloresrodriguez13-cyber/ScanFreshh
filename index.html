@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title>ScanFresh · Identificador de Frutas y Verduras</title>
+  <meta name="theme-color" content="#121212">
+  <meta name="description" content="Buscador de productos y catálogo de frutas y verduras para punto de venta">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- ===== ENCABEZADO ===== -->
+    <header class="app-header">
+      <div class="app-header__brand">
+        <span class="app-header__logo" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C12 2 8 6.5 8 11.5C8 15.6 10.7 18.9 12 20.5C13.3 18.9 16 15.6 16 11.5C16 6.5 12 2 12 2Z" stroke="#00e676" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M12 2C12 2 13.6 4 13.6 6.2" stroke="#00e676" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <h1 class="app-header__title">ScanFresh</h1>
+      </div>
+      <div class="app-header__status">
+        <span class="status-dot status-dot--active"></span>
+        <span class="status-text">230 productos</span>
+      </div>
+    </header>
+
+    <!-- ===== PESTAÑAS: BUSCAR / CATÁLOGO ===== -->
+    <nav class="tab-bar" aria-label="Secciones de la app">
+      <button type="button" class="tab-bar__btn is-active" id="tabSearchBtn">Buscar</button>
+      <button type="button" class="tab-bar__btn" id="tabCatalogBtn">Catálogo</button>
+    </nav>
+
+    <!-- ===== BUSCADOR DE PRODUCTOS ===== -->
+    <main class="app-main" id="searchView">
+      <div class="catalog-search-wrap">
+        <input type="search" id="searchInput" class="catalog-search" placeholder="Buscar producto (ej. tomate, manzana)...">
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    </main>
+
+    <!-- ===== CATÁLOGO DE FOTOS DE REFERENCIA ===== -->
+    <main class="app-main app-main--hidden" id="catalogView">
+      <div class="catalog-search-wrap">
+        <input type="search" id="catalogSearch" class="catalog-search" placeholder="Buscar producto...">
+      </div>
+      <div class="catalog-grid" id="catalogGrid"></div>
+    </main>
+
+    <!-- Visor ampliado de una foto del catálogo -->
+    <div class="lightbox" id="lightbox" hidden>
+      <button type="button" class="lightbox__close" id="lightboxClose" aria-label="Cerrar">✕</button>
+      <img class="lightbox__img" id="lightboxImg" alt="Foto ampliada del producto">
+      <p class="lightbox__caption" id="lightboxCaption"></p>
+    </div>
+
+    <footer class="app-footer">
+      <p>ScanFresh · Punto de venta</p>
+    </footer>
+  </div>
+
+  <script src="catalogo-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
